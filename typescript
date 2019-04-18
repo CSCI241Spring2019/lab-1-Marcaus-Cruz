@@ -1,0 +1,89 @@
+Script started on Wed 17 Apr 2019 04:57:09 PM PDT
+cruzm4@CF165-06:~$ cd csci241/
+cruzm4@CF165-06:~/csci241$ ls
+lab-1-Marcaus-Cruz
+cruzm4@CF165-06:~/csci241$ la[K[Kcd lab-1-Marcaus-Cruz/
+cruzm4@CF165-06:~/csci241/lab-1-Marcaus-Cruz$ ls
+build  build.gradle  src  username.txt	writeup.txt
+cruzm4@CF165-06:~/csci241/lab-1-Marcaus-Cruz$ echo I [K[K"I did the entire lab, used all of the git command s. E[KOtherwise I wouldn't have been able to complete the lab (justification([K)."
+I did the entire lab, used all of the git commands. Otherwise I wouldn't have been able to complete the lab (justification).
+cruzm4@CF165-06:~/csci241/lab-1-Marcaus-Cruz$ echo "I [K[K[K[K[K[K[K[Kgist[K[Kt status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.gradle/[m
+	[31mbuild/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+cruzm4@CF165-06:~/csci241/lab-1-Marcaus-Cruz$ ls
+build  build.gradle  src  username.txt	writeup.txt
+cruzm4@CF165-06:~/csci241/lab-1-Marcaus-Cruz$ git checkout
+Your branch is up-to-date with 'origin/master'.
+cruzm4@CF165-06:~/csci241/lab-1-Marcaus-Cruz$ git reset
+cruzm4@CF165-06:~/csci241/lab-1-Marcaus-Cruz$ ls
+build  build.gradle  src  username.txt	writeup.txt
+cruzm4@CF165-06:~/csci241/lab-1-Marcaus-Cruz$ git rm
+usage: git rm [<options>] [--] <file>...
+
+    -n, --dry-run         dry run
+    -q, --quiet           do not list removed files
+    --cached              only remove from the index
+    -f, --force           override the up-to-date check
+    -r                    allow recursive removal
+    --ignore-unmatch      exit with a zero status even if nothing matched
+
+cruzm4@CF165-06:~/csci241/lab-1-Marcaus-Cruz$ git mv
+usage: git mv [<options>] <source>... <destination>
+
+    -v, --verbose         be verbose
+    -n, --dry-run         dry run
+    -f, --force           force move/rename even if target exists
+    -k                    skip move/rename errors
+
+cruzm4@CF165-06:~/csci241/lab-1-Marcaus-Cruz$ git log
+[?1h=[33mcommit 13f6329ee9891df790e6ec67e50ad9390d141d43[m[m
+Author: Marcaus-Cruz <cruzm4@wwu.edu>[m
+Date:   Thu Apr 11 13:17:01 2019 -0700[m
+[m
+    Hellow now prints command line arg[m
+[m
+[33mcommit 46f90191d76a7f6db31a0d039bb367643eab4316[m[m
+Author: Marcaus-Cruz <cruzm4@wwu.edu>[m
+Date:   Thu Apr 11 13:00:46 2019 -0700[m
+[m
+    Added fav song[m
+[m
+[33mcommit 41e435f7610c9103ee665aa6a4a052065cf78251[m[m
+Author: Marcaus-Cruz <cruzm4@wwu.edu>[m
+Date:   Thu Apr 11 12:54:45 2019 -0700[m
+[m
+    Adding hobby to writeup and username.txt[m
+[m
+[33mcommit 4773441bba48dd9e42182e199236dce4b8657db8[m[m
+Author: Marcaus-Cruz <cruzm4@wwu.edu>[m
+Date:   Thu Apr 11 12:16:35 2019 -0700[m
+[m
+    Added part 1 (Marcaus Cruz) to writeup[m
+[m
+[33mcommit 6a86bdb84b5948918d97009ff027d59b7f2fb878[m[m
+Author: Marcaus-Cruz <cruzm4@wwu.edu>[m
+Date:   Thu Apr 11 12:06:43 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+Author: majeskn <majeskn@wwu.edu>[m
+Date:   Mon Jan 7 20:49:19 2019 -0800[m
+[m
+    Adding setup for gradle[m
+[K[?1l>cruzm4@CF165-06:~/csci241/lab-1-Marcaus-Cruz$ git diff
+[?1h=[K[?1l>cruzm4@CF165-06:~/csci241/lab-1-Marcaus-Cruz$ echo "The [K[K[K[KM[KSimon told me to type up thist [K[K script just to vali date that I completed all steps of the lab and submit it."
+Simon told me to type up this script just to validate that I completed all steps of the lab and submit it.
+cruzm4@CF165-06:~/csci241/lab-1-Marcaus-Cruz$ echo"[K "Oh yeah! I forgot to tell you how I lost my origi nal script -- My terminal could not advance at a couple of points, causing me to close it and restart . I didn't know that th[K[Kclosing the terminal would end the script as well, t[K[K[K[Kl. Thus, no script of my entire  lab, but I think that the submission of my lab wi[K[Kcompleted indicated [K[Ks that I did all of the specified gi t commands".[K[K."[K -- Thank you, M[K[K[K"
+Oh yeah! I forgot to tell you how I lost my original script -- My terminal could not advance at a couple of points, causing me to close it and restart. I didn't know that closing the terminal would end the script as well. Thus, no script of my entire lab, but I think that the submission of my lab completed indicates that I did all of the specified git commands. -- Thank you
+cruzm4@CF165-06:~/csci241/lab-1-Marcaus-Cruz$ exit
+exit
+
+Script done on Wed 17 Apr 2019 05:04:27 PM PDT
